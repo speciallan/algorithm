@@ -11,7 +11,12 @@ class Solution
             // unordered_map<int, int> m;
             // vector<int> res;
 
-            vector<int> res = nums;
+            vector<int>& res = nums;
+
+            for (vector<int>::const_iterator iter = res.cbegin(); iter != res.cend(); iter++)
+            {
+                cout << (*iter) << endl;
+            }
 
             return res;
         }
