@@ -78,6 +78,7 @@ class Solution2:
         
         pos = _height.index(hmax)+1
 
+        ###
         return self.trap(height[:pos+1]) + self.trap(height[pos:])
 
 if __name__ == "__main__":
