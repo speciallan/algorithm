@@ -59,6 +59,7 @@ class Solution:
         return water_amount.sum()
 
 class Solution2:
+
     def trap(self, height):
         """
         :type height: List[int]
@@ -76,6 +77,7 @@ class Solution2:
             return hmin*len(_height) - sum(_height)
         
         pos = _height.index(hmax)+1
+
         return self.trap(height[:pos+1]) + self.trap(height[pos:])
 
 if __name__ == "__main__":
