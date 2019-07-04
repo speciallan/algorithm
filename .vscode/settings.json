@@ -1,6 +1,7 @@
 {
     "files.associations": {
-        "vector": "cpp"
+        "vector": "cpp",
+        "*.tcc": "cpp"
     },
-    "python.pythonPath": "/Users/speciallan/anaconda3/envs/py36tf/bin/python"
+    "python.pythonPath": "/home/speciallan/.conda/envs/py36tf/bin/python"
 }
